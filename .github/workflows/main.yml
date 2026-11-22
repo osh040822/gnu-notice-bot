@@ -18,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5  # v4 -> v5 업데이트 (Node 20 경고 해결)
         with:
-          python-version: '3.9'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: pip install requests beautifulsoup4 python-telegram-bot
