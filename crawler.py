@@ -5,8 +5,8 @@ import requests
 import telegram
 
 # --- 설정 값 ---
-BOT_TOKEN = '8855923871:AAEcIDMjHWSxmB5HyB2BVVJe4uQA3ocUokA'
-CHAT_ID = '7658817457'
+BOT_TOKEN = os.environ['BOT_TOKEN']
+CHAT_ID = os.environ['CHAT_ID']
 ID_FILE = 'last_id.txt'
 URL = 'https://www.gnu.ac.kr/cse/na/ntt/selectNttList.do?mi=17093&bbsId=4753'
 HEADERS = {'User-Agent': 'Mozilla/5.0'}
